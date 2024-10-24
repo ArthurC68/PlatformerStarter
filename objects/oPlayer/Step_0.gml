@@ -13,6 +13,9 @@ hsp = _move * walksp;
 
 vsp = vsp + grv;
 
+if (place_meeting(x,y+1,oWall)) && (key_jump) {
+	vsp = - jumpsp;
+}
 //Horizontal Collions
 
 if (place_meeting(x+hsp, y,oWall)) {
@@ -25,7 +28,7 @@ if (place_meeting(x+hsp, y,oWall)) {
 x = x +hsp;
 
 //Veritcal Collions
-if (place_meeting(x, y+sign(vsp),oWall)) {
+if (place_meeting(x, y+vsp,oWall)) {
 	
 	while (!place_meeting(x,y+sign(vsp),oWall)) {
 		y = y + sign(vsp);
