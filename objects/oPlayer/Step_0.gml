@@ -36,3 +36,12 @@ if (place_meeting(x, y+vsp,oWall)) {
 	vsp = 0;
 }
 y = y +vsp;
+
+//sprite direction
+if(sign(hsp) = 1) {
+	image_scale = 1;
+}
+else {
+	image_scale = -1;
+	
+}
