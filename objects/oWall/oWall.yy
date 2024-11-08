@@ -7,7 +7,7 @@
     "path": "sprites/sInvisableWall/sInvisableWall.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": {
     "name": "sInvisableWall",
