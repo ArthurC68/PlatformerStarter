@@ -40,10 +40,10 @@ y = y +vsp;
 
 //sprite direction
 if(sign(hsp) = 1) {
-	image_scale = 1;
+	image_xscale = 0.3;
 }
 else {
-	image_scale = -1;
+	image_xscale = -0.3;
 	
 }
 
@@ -63,7 +63,7 @@ else {
 	}
 }
 
-if(hsp!=0) image_xscale = sign(hsp);
+//if(hsp!=0) image_xscale = (sign(hsp)*scale);
 
 //Reset
 if (key_restart){

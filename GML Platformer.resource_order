@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"oRoomChanger","order":2,"path":"objects/oRoomChanger/oRoomChanger.yy",},
+    {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"Room2","order":2,"path":"rooms/Room2/Room2.yy",},
+    {"name":"Room3","order":3,"path":"rooms/Room3/Room3.yy",},
+    {"name":"Room4","order":4,"path":"rooms/Room4/Room4.yy",},
+    {"name":"Room5","order":5,"path":"rooms/Room5/Room5.yy",},
+    {"name":"Room6","order":6,"path":"rooms/Room6/Room6.yy",},
+    {"name":"sBackground","order":7,"path":"sprites/sBackground/sBackground.yy",},
+    {"name":"sClouds","order":6,"path":"sprites/sClouds/sClouds.yy",},
+    {"name":"sGrain","order":8,"path":"sprites/sGrain/sGrain.yy",},
+    {"name":"sInvisableWall","order":1,"path":"sprites/sInvisableWall/sInvisableWall.yy",},
+    {"name":"sPlayer","order":2,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"sPlayerA","order":3,"path":"sprites/sPlayerA/sPlayerA.yy",},
+    {"name":"sPlayerR","order":4,"path":"sprites/sPlayerR/sPlayerR.yy",},
+    {"name":"Sprite9","order":9,"path":"sprites/Sprite9/Sprite9.yy",},
+    {"name":"sWalls","order":5,"path":"sprites/sWalls/sWalls.yy",},
+    {"name":"TileSet2","order":1,"path":"tilesets/TileSet2/TileSet2.yy",},
+  ],
+}
