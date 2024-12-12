@@ -40,26 +40,26 @@ y = y +vsp;
 
 //sprite direction
 if(sign(hsp) = 1) {
-	image_xscale = 0.3;
+	image_xscale = 1;
 }
 else {
-	image_xscale = -0.3;
+	image_xscale = -1;
 	
 }
 
 //Animation
 if(!place_meeting(x,y+1,oWall)) {
-	sprite_index = sPlayerA;
+	sprite_index = sPlayerA_1;
 	image_speed = 0;
 	if(vsp>0) image_index = 1; else image_index = 0;
 }
 else {
 	image_speed = 1;
 	if(hsp == 0) {
-		sprite_index = sPlayer; 
+		sprite_index = sPlayer_1; 
 	}
 	else {
-		sprite_index = sPlayerR;
+		sprite_index = sPlayerR_1;
 	}
 }
 

@@ -31,12 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"sPlayer_1",
+    "path":"sprites/sPlayer_1/sPlayer_1.yy",
   },
   "spriteMaskId":{
-    "name":"sPlayerR",
-    "path":"sprites/sPlayerR/sPlayerR.yy",
+    "name":"sPlayerR_1",
+    "path":"sprites/sPlayerR_1/sPlayerR_1.yy",
   },
   "visible":true,
 }
